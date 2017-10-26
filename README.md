@@ -18,4 +18,4 @@ You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmar
 
 ## Symfony
 
-You can find all Symfony benchmarks [here](http://www.phpbenchmarks.com/fr/benchmark/apache-bench/php-7.1/select-version/symfony.html);
+You can find all Symfony benchmarks [here](http://www.phpbenchmarks.com/fr/benchmark/apache-bench/php-7.1/select-version/symfony.html)
