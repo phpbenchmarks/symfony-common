@@ -1,14 +1,14 @@
 <?php
 
-namespace PhpBenchmarksSymfony\Bundle\RestBundle\Controller;
+namespace PhpBenchmarksSymfony\RestApiBundle\Controller;
 
 use PhpBenchmarksRestData\Service;
-use PhpBenchmarksSymfony\EventListener\DefineLocaleEventListener;
+use PhpBenchmarksSymfony\RestApiBundle\EventListener\DefineLocaleEventListener;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 
-class RestController extends Controller
+class RestApiController extends Controller
 {
     /** @return Response */
     public function restAction()

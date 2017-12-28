@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksSymfony\Bundle\RestBundle\Normalizer;
+namespace PhpBenchmarksSymfony\RestApiBundle\Normalizer;
 
 use PhpBenchmarksRestData\User;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;

@@ -1,27 +1,27 @@
 services:
     benchmark.normalizer.user:
-        class: PhpBenchmarksSymfony\Bundle\RestBundle\Normalizer\UserNormalizer
+        class: PhpBenchmarksSymfony\RestApiBundle\Normalizer\UserNormalizer
         public: false
         arguments: ['@translator']
         tags:
             - { name: serializer.normalizer }
 
     benchmark.normalizer.comment:
-        class: PhpBenchmarksSymfony\Bundle\RestBundle\Normalizer\CommentNormalizer
+        class: PhpBenchmarksSymfony\RestApiBundle\Normalizer\CommentNormalizer
         public: false
         arguments: ['@translator']
         tags:
             - { name: serializer.normalizer }
 
     benchmark.normalizer.comment_type:
-        class: PhpBenchmarksSymfony\Bundle\RestBundle\Normalizer\CommentTypeNormalizer
+        class: PhpBenchmarksSymfony\RestApiBundle\Normalizer\CommentTypeNormalizer
         public: false
         arguments: ['@translator']
         tags:
             - { name: serializer.normalizer }
 
     benchmark.event_listener.define_locale:
-        class: PhpBenchmarksSymfony\EventListener\DefineLocaleEventListener
+        class: PhpBenchmarksSymfony\RestApiBundle\EventListener\DefineLocaleEventListener
         arguments: ['@request_stack', '@translator']
         tags:
             - { name: kernel.event_listener, event: defineLocale }

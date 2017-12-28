@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksSymfony\EventListener;
+namespace PhpBenchmarksSymfony\RestApiBundle\EventListener;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\Translation\TranslatorInterface;

@@ -1,13 +1,13 @@
 <?php
 
-namespace PhpBenchmarksSymfony\Bundle\RestBundle\DependencyInjection;
+namespace PhpBenchmarksSymfony\RestApiBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class RestExtension extends Extension
+class RestApiExtension extends Extension
 {
     /**
      * @param array $configs
