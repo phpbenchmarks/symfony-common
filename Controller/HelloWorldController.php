@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpBenchmarksSymfony\Bundle\HelloWorldBundle\Controller;
+namespace PhpBenchmarksSymfony\HelloWorldBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;

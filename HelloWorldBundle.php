@@ -1,10 +1,9 @@
 <?php
 
-namespace PhpBenchmarksSymfony\Bundle\HelloWorldBundle;
+namespace PhpBenchmarksSymfony\HelloWorldBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class HelloWorldBundle extends Bundle
 {
-
 }
