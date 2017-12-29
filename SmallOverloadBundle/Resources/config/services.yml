@@ -1,0 +1,300 @@
+services:
+    phpbenchmarks.service1:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload1Service
+
+    phpbenchmarks.service2:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload2Service
+
+    phpbenchmarks.service3:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload3Service
+
+    phpbenchmarks.service4:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload4Service
+
+    phpbenchmarks.service5:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload5Service
+
+    phpbenchmarks.service6:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload6Service
+
+    phpbenchmarks.service7:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload7Service
+
+    phpbenchmarks.service8:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload8Service
+
+    phpbenchmarks.service9:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload9Service
+
+    phpbenchmarks.service10:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload10Service
+
+    phpbenchmarks.service11:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload11Service
+
+    phpbenchmarks.service12:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload12Service
+
+    phpbenchmarks.service13:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload13Service
+
+    phpbenchmarks.service14:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload14Service
+
+    phpbenchmarks.service15:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload15Service
+
+    phpbenchmarks.service16:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload16Service
+
+    phpbenchmarks.service17:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload17Service
+
+    phpbenchmarks.service18:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload18Service
+
+    phpbenchmarks.service19:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload19Service
+
+    phpbenchmarks.service20:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload20Service
+
+    phpbenchmarks.service21:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload21Service
+
+    phpbenchmarks.service22:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload22Service
+
+    phpbenchmarks.service23:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload23Service
+
+    phpbenchmarks.service24:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload24Service
+
+    phpbenchmarks.service25:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload25Service
+
+    phpbenchmarks.service26:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload26Service
+
+    phpbenchmarks.service27:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload27Service
+
+    phpbenchmarks.service28:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload28Service
+
+    phpbenchmarks.service29:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload29Service
+
+    phpbenchmarks.service30:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload30Service
+
+    phpbenchmarks.service31:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload31Service
+
+    phpbenchmarks.service32:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload32Service
+
+    phpbenchmarks.service33:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload33Service
+
+    phpbenchmarks.service34:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload34Service
+
+    phpbenchmarks.service35:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload35Service
+
+    phpbenchmarks.service36:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload36Service
+
+    phpbenchmarks.service37:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload37Service
+
+    phpbenchmarks.service38:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload38Service
+
+    phpbenchmarks.service39:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload39Service
+
+    phpbenchmarks.service40:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload40Service
+
+    phpbenchmarks.service41:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload41Service
+
+    phpbenchmarks.service42:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload42Service
+
+    phpbenchmarks.service43:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload43Service
+
+    phpbenchmarks.service44:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload44Service
+
+    phpbenchmarks.service45:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload45Service
+
+    phpbenchmarks.service46:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload46Service
+
+    phpbenchmarks.service47:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload47Service
+
+    phpbenchmarks.service48:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload48Service
+
+    phpbenchmarks.service49:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload49Service
+
+    phpbenchmarks.service50:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload50Service
+
+    phpbenchmarks.service51:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload51Service
+
+    phpbenchmarks.service52:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload52Service
+
+    phpbenchmarks.service53:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload53Service
+
+    phpbenchmarks.service54:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload54Service
+
+    phpbenchmarks.service55:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload55Service
+
+    phpbenchmarks.service56:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload56Service
+
+    phpbenchmarks.service57:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload57Service
+
+    phpbenchmarks.service58:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload58Service
+
+    phpbenchmarks.service59:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload59Service
+
+    phpbenchmarks.service60:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload60Service
+
+    phpbenchmarks.service61:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload61Service
+
+    phpbenchmarks.service62:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload62Service
+
+    phpbenchmarks.service63:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload63Service
+
+    phpbenchmarks.service64:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload64Service
+
+    phpbenchmarks.service65:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload65Service
+
+    phpbenchmarks.service66:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload66Service
+
+    phpbenchmarks.service67:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload67Service
+
+    phpbenchmarks.service68:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload68Service
+
+    phpbenchmarks.service69:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload69Service
+
+    phpbenchmarks.service70:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload70Service
+
+    phpbenchmarks.service71:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload71Service
+
+    phpbenchmarks.service72:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload72Service
+
+    phpbenchmarks.service73:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload73Service
+
+    phpbenchmarks.service74:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload74Service
+
+    phpbenchmarks.service75:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload75Service
+
+    phpbenchmarks.service76:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload76Service
+
+    phpbenchmarks.service77:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload77Service
+
+    phpbenchmarks.service78:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload78Service
+
+    phpbenchmarks.service79:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload79Service
+
+    phpbenchmarks.service80:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload80Service
+
+    phpbenchmarks.service81:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload81Service
+
+    phpbenchmarks.service82:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload82Service
+
+    phpbenchmarks.service83:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload83Service
+
+    phpbenchmarks.service84:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload84Service
+
+    phpbenchmarks.service85:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload85Service
+
+    phpbenchmarks.service86:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload86Service
+
+    phpbenchmarks.service87:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload87Service
+
+    phpbenchmarks.service88:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload88Service
+
+    phpbenchmarks.service89:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload89Service
+
+    phpbenchmarks.service90:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload90Service
+
+    phpbenchmarks.service91:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload91Service
+
+    phpbenchmarks.service92:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload92Service
+
+    phpbenchmarks.service93:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload93Service
+
+    phpbenchmarks.service94:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload94Service
+
+    phpbenchmarks.service95:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload95Service
+
+    phpbenchmarks.service96:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload96Service
+
+    phpbenchmarks.service97:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload97Service
+
+    phpbenchmarks.service98:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload98Service
+
+    phpbenchmarks.service99:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload99Service
+
+    phpbenchmarks.service100:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\Service\SmallOverload100Service

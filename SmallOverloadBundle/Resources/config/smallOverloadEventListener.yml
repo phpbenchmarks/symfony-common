@@ -1,0 +1,125 @@
+services:
+    phpbenchmarks.smallOverloadEventListener1:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload1EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener2:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload2EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener3:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload3EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener4:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload4EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener5:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload5EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener6:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload6EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener7:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload7EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener8:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload8EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener9:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload9EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener10:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload10EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener11:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload11EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener12:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload12EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener13:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload13EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener14:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload14EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener15:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload15EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener16:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload16EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener17:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload17EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener18:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload18EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener19:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload19EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener20:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload20EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener21:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload21EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener22:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload22EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener23:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload23EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener24:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload24EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }
+
+    phpbenchmarks.smallOverloadEventListener25:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\SmallOverload25EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.smallOverload }

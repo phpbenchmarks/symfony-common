@@ -1,0 +1,13 @@
+{
+    "name": "phpbenchmarks/symfony",
+    "license": "proprietary",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PhpBenchmarksSymfony\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    }
+}

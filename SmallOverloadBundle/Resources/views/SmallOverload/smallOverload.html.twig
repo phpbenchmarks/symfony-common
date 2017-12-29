@@ -1,0 +1,59 @@
+{% trans_default_domain 'phpbenchmarks' %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            table {
+                border: solid 1px black;
+                border-collapse: collapse;
+            }
+
+            table th {
+                background-color: #969896;
+                color: white;
+            }
+
+            table td, table th {
+                border: solid 1px black;
+                min-width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hour</th>
+                    {% for day in 1..31 %}
+                        <th>Day {{ day }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% set smallOverloadIndex = -1 %}
+                {% for hour in 0..23 %}
+
+                    <tr>
+                        <td>{{ hour }}</td>
+                        {% for day in 1..31 %}
+                            {% set smallOverloadIndex = smallOverloadIndex + 1 %}
+                            <td>
+                                {{ 'smallOverload.translation'|trans({'{{ index }}': (smallOverloadIndex + 1)}) }}
+                                <br>
+                                <strong>#{{ smallOverloads[smallOverloadIndex].id }}</strong>
+                                <br>
+                                {{ smallOverloads[smallOverloadIndex].date|date('Y-m-d') }}
+                                <br>
+                                {{ smallOverloads[smallOverloadIndex].dateTime|date('Y-m-d H:i:s') }}
+                                <br>
+                                {{ smallOverloads[smallOverloadIndex].fixedString }}
+                                <br>
+                                {{ smallOverloads[smallOverloadIndex].variableString }}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>

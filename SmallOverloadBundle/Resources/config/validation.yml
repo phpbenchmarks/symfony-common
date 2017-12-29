@@ -1,0 +1,47 @@
+PhpBenchmarksSymfony\SmallOverloadBundle\Entity\SmallOverload1:
+    properties:
+        id:
+            - NotNull:
+                groups: smallOverload
+            - Type:
+                type: int
+                groups: smallOverload
+            - GreaterThan:
+                value: 0
+                groups: smallOverload
+
+        date:
+            - NotNull:
+                groups: smallOverload
+            - Type:
+                type: object
+                groups: smallOverload
+
+        dateTime:
+            - NotNull:
+                groups: smallOverload
+            - Type:
+                type: object
+                groups: smallOverload
+
+        fixedString:
+            - NotNull:
+                groups: smallOverload
+            - Type:
+                type: string
+                groups: smallOverload
+            - Length:
+                min: 28
+                max: 30
+                groups: smallOverload
+
+        variableString:
+            - NotNull:
+                groups: smallOverload
+            - Type:
+                type: string
+                groups: smallOverload
+            - Length:
+                min: 31
+                max: 33
+                groups: smallOverload

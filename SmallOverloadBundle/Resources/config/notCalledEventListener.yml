@@ -1,0 +1,375 @@
+services:
+    phpbenchmarks.notCalledEventListener1:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled1EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener2:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled2EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener3:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled3EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener4:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled4EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener5:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled5EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener6:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled6EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener7:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled7EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener8:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled8EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener9:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled9EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener10:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled10EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener11:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled11EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener12:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled12EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener13:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled13EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener14:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled14EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener15:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled15EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener16:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled16EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener17:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled17EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener18:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled18EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener19:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled19EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener20:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled20EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener21:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled21EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener22:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled22EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener23:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled23EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener24:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled24EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener25:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled25EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener26:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled26EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener27:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled27EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener28:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled28EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener29:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled29EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener30:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled30EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener31:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled31EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener32:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled32EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener33:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled33EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener34:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled34EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener35:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled35EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener36:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled36EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener37:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled37EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener38:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled38EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener39:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled39EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener40:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled40EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener41:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled41EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener42:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled42EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener43:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled43EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener44:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled44EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener45:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled45EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener46:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled46EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener47:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled47EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener48:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled48EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener49:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled49EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener50:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled50EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener51:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled51EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener52:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled52EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener53:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled53EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener54:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled54EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener55:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled55EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener56:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled56EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener57:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled57EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener58:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled58EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener59:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled59EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener60:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled60EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener61:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled61EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener62:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled62EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener63:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled63EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener64:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled64EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener65:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled65EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener66:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled66EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener67:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled67EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener68:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled68EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener69:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled69EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener70:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled70EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener71:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled71EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener72:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled72EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener73:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled73EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener74:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled74EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
+
+    phpbenchmarks.notCalledEventListener75:
+        class: PhpBenchmarksSymfony\SmallOverloadBundle\EventListener\NotCalled75EventListener
+        tags:
+            - { name: kernel.event_listener, event: phpbenchmarks.notCalled }
