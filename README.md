@@ -24,13 +24,9 @@ REST Api (Symfony 2.4 to 4.x): [restapi](https://github.com/phpbenchmarks/symfon
 
 Blog: [blog](https://github.com/phpbenchmarks/symfony/tree/blog)
 
-Small overload (Symfony 2.0 to 2.3): [smalloverload-symfony-2-3](https://github.com/phpbenchmarks/symfony/tree/smalloverload-symfony-2-3)
+Small overload: [smalloverload](https://github.com/phpbenchmarks/symfony/tree/smalloverload)
 
-Small overload (Symfony 2.4 to 4.x): [smalloverload](https://github.com/phpbenchmarks/symfony/tree/smalloverload)
-
-Big overload (Symfony 2.0 to 2.3): [bigoverload-symfony-2-3](https://github.com/phpbenchmarks/symfony/tree/bigoverload-symfony-2-3)
-
-Big overload (Symfony 2.4 to 4.x): [bigoverload](https://github.com/phpbenchmarks/symfony/tree/bigoverload)
+Big overload: [bigoverload](https://github.com/phpbenchmarks/symfony/tree/bigoverload)
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
