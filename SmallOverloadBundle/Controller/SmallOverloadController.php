@@ -12,8 +12,9 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 class SmallOverloadController extends Controller
 {
     /** @return Response */
-    public function smallOverloadAction(SessionInterface $session)
+    public function smallOverloadAction()
     {
+        $session = $this->get('session');
         $entities = $this->get('doctrine')->getRepository(SmallOverload1::class)->findAll();
         $this
             ->writeSession($session)
