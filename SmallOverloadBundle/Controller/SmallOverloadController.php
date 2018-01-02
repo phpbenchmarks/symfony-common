@@ -12,13 +12,12 @@ use Symfony\Component\HttpKernel\Exception\HttpException;
 class SmallOverloadController extends Controller
 {
     /** @return Response */
-    public function smallOverloadAction(SessionInterface $session): Response
+    public function smallOverloadAction(SessionInterface $session)
     {
         $entities = $this->get('doctrine')->getRepository(SmallOverload1::class)->findAll();
         $this
             ->writeSession($session)
             ->readSession($session)
-            ->log()
             ->fireEvent()
             ->validate($entities);
 
@@ -43,16 +42,6 @@ class SmallOverloadController extends Controller
     {
         for ($x = 1; $x <= 20; $x++) {
             $session->get('overload-' . $x, 'overload-' . $x . '-value-not-found');
-        }
-
-        return $this;
-    }
-
-    /** @return $this */
-    protected function log()
-    {
-        for ($x = 1; $x <= 10; $x++) {
-//            $logger->notice('[Session ' . $session->getId() . '] Small overload message ' . $x);
         }
 
         return $this;
