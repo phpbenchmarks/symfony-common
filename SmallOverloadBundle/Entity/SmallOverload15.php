@@ -54,7 +54,7 @@ class SmallOverload15
     }
 
     /** @return $this */
-    public function setFixedString(string $string = null)
+    public function setFixedString($string = null)
     {
         $this->fixedString = $string;
 
@@ -68,7 +68,7 @@ class SmallOverload15
     }
 
     /** @return $this */
-    public function setVariableString(string $variableString = null)
+    public function setVariableString($variableString = null)
     {
         $this->variableString = $variableString;
 
