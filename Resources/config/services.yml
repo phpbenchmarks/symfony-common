@@ -22,6 +22,6 @@ services:
 
     benchmark.event_listener.define_locale:
         class: PhpBenchmarksSymfony\RestApiBundle\EventListener\DefineLocaleEventListener
-        arguments: ['@request_stack', '@translator']
+        arguments: ['@service_container', '@translator']
         tags:
             - { name: kernel.event_listener, event: defineLocale }

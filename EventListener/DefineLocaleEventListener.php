@@ -2,22 +2,26 @@
 
 namespace PhpBenchmarksSymfony\RestApiBundle\EventListener;
 
-use Symfony\Component\HttpFoundation\RequestStack;
+use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Translation\TranslatorInterface;
 
 class DefineLocaleEventListener
 {
     const EVENT_NAME = 'defineLocale';
 
-    /** @var RequestStack */
-    protected $requestStack;
+    /**
+     * request_stack don't exist on <= 2.3, so use container to retrieve request, as mentionned in documentation
+     * @var ContainerInterface
+     */
+    protected $container;
 
     /** @var TranslatorInterface */
     protected $translator;
 
-    public function __construct(RequestStack $requestStack, TranslatorInterface $translator)
+    public function __construct(ContainerInterface $container, TranslatorInterface $translator)
     {
-        $this->requestStack = $requestStack;
+        $this->container = $container;
         $this->translator = $translator;
     }
 
@@ -26,7 +30,7 @@ class DefineLocaleEventListener
         $locales = ['fr_FR', 'en_GB', 'aa_BB'];
         $locale = $locales[rand(0, 2)];
 
-        $this->requestStack->getCurrentRequest()->setLocale($locale);
+        $this->container->get('request')->setLocale($locale);
         $this->translator->setLocale($locale);
     }
 }
