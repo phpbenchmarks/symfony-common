@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony",
+    "name": "phpbenchmarks/symfony-common",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -8,6 +8,6 @@
         }
     },
     "require": {
-        "php": ">=5.4.0"
+        "symfony/symfony": "^3.0"
     }
 }
