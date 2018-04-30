@@ -8,7 +8,7 @@
         }
     },
     "require": {
-        "symfony/symfony": "^4.0",
+        "symfony/symfony": "^3.0",
         "phpbenchmarks/benchmark-rest-data": "1.0.0"
     }
 }
