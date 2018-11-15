@@ -8,7 +8,6 @@
         }
     },
     "require": {
-        "symfony/lts": "^4@dev",
         "phpbenchmarks/benchmark-rest-data": "1.0.0"
     }
 }
