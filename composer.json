@@ -6,8 +6,5 @@
         "psr-4": {
             "PhpBenchmarksSymfony\\HelloWorldBundle\\": ""
         }
-    },
-    "require": {
-        "symfony/lts": "^4@dev"
     }
 }
