@@ -6,8 +6,5 @@
         "psr-4": {
             "PhpBenchmarksSymfony\\": ""
         }
-    },
-    "require": {
-        "symfony/lts": "^4@dev"
     }
 }
